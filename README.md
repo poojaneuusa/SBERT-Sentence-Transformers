@@ -90,46 +90,56 @@ We use the SentenceTransformer model from the sentence-transformers library to c
 ```
 ### Input Clusterings
 1. K-Means
+
    ```
    Cluster  1
-['A monkey is playing drums.', 'Someone in a gorilla costume is playing a set of drums.']
+   ['A monkey is playing drums.', 'Someone in a gorilla costume is playing a set of 	drums.']
 
-Cluster  2
-['A man is eating food.', 'A man is eating a piece of bread.', 'A man is eating pasta.', 'A man is riding a horse.', 'A man is riding a white horse on an enclosed ground.']
-....
+   Cluster  2
+   ['A man is eating food.', 'A man is eating a piece of bread.', 'A man is eating pasta.', 'A 
+   man is riding a horse.', 'A man is riding a white horse on an enclosed ground.']
+   ....
    ```
+
+
 2. Agglomerative Clustering
+
    ```
-Cluster  1
-['A man is eating food.', 'A man is eating a piece of bread.', 'A man is eating pasta.']
+   Cluster  1
+   ['A man is eating food.', 'A man is eating a piece of bread.', 'A man is eating pasta.']
 
-Cluster  2
-['A man is riding a horse.', 'A man is riding a white horse on an enclosed ground.']
+   Cluster  2
+   ['A man is riding a horse.', 'A man is riding a white horse on an enclosed ground.']
 
-Cluster  3
-['A monkey is playing drums.', 'Someone in a gorilla costume is playing a set of drums.']
+   Cluster  3
+   ['A monkey is playing drums.', 'Someone in a gorilla costume is playing a set of drums.']
 
-Cluster  4
-['The girl is carrying a baby.', 'The baby is carried by the woman']
-.....
+   Cluster  4
+   ['The girl is carrying a baby.', 'The baby is carried by the woman']
+   .....
    ```
+
+
 3. Fast Clustering
+
    ```
-Cluster 1, #10 Questions
+   Cluster 1, #10 Questions
 	 Which are the best Hollywood thriller movies?
 	 What are the most underrated and overrated movies you've seen?
 	 What are the best films that take place in one room?
 	 ...
 
-Cluster 2, #9 Questions
-	 What are your views on Modi governments decision to demonetize 500 and 1000 rupee notes? How will this affect economy?
-	 What's your opinion about the decision on removal of 500 and 1000 rupees currency notes?
+   Cluster 2, #9 Questions
+	 What are your views on Modi governments decision to demonetize 500 and 1000 rupee 
+         notes? How will this affect economy?
+	 What's your opinion about the decision on removal of 500 and 1000 rupees currency 
+         notes?
 	 How will Indian GDP be affected from banning 500 and 1000 rupees notes?
 	 ...
 
-Cluster 3, #8 Questions
+   Cluster 3, #8 Questions
 	 What is best way to make money online?
 	 How can I make money through the Internet?
 	 What are the easy ways to earn money online?
-  .....
+    .....
    ```
