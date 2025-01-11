@@ -4,7 +4,7 @@ Research Paper Link:<ins>https://arxiv.org/pdf/1908.10084.pdf </ins>
 
 - It is superfast 5 seconds vs 50 hours with BERT
 - It can be used for both classification and regression
-
+----------------------------------------------------------------------------------------------
 ## 1. Semantic Search
 This project demonstrates semantic search using SBERT embeddings. It fetches a corpus and queries from two text files, encodes them using SBERT, normalizes the embeddings, and performs a semantic search to find the most relevant corpus sentences for each query based on cosine similarity.
 ### Installation 
@@ -28,6 +28,8 @@ Result:
 - A man is eating a piece of bread. --> 0.841
 - A man is eating pasta. --> 0.856
 ```
+
+-----------------------------------------------------------------------------------------------
 ## 2. Sentence Embeddings and Similarities
 This project demonstrates how to compute sentence embeddings using the `sentence-transformers` library and measure semantic similarities between sentences. Additionally, it identifies paraphrases based on similarity scores.  
 ### Installation  
@@ -63,6 +65,8 @@ Example paraphrases with similarity scores:
 ```
 'the new movie is awesome' <> 'the new movie is really great' --> 0.89
 ```
+
+------------------------------------------------------------------------------------------------
 ## 3. Clustering
 Sentence Embeddings are used for clustering tasks, for:
 - K-Means
@@ -88,7 +92,7 @@ We use the SentenceTransformer model from the sentence-transformers library to c
 ```
 ['A man is eating food.', 'A man is eating a piece of bread.', 'A man is eating pasta.', 'The girl is carrying a baby.', 'The baby is carried by the woman', 'A man is riding a horse.', 'A man is riding a white horse on an enclosed ground.', 'A monkey is playing drums.', 'Someone in a gorilla costume is playing a set of drums.', 'A cheetah is running behind its prey.', 'A cheetah chases prey on across a field.', '']
 ```
-### Input Clusterings
+### Output Clusterings
 1. K-Means
 
    ```
