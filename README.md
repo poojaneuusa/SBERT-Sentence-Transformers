@@ -14,9 +14,9 @@ This project demonstrates how to compute sentence embeddings using the `sentence
 To set up the environment, install the required library:  
 ```bash
 pip install -U sentence-transformers
-
+```
 ### How It Works
-Model: Uses the ```all-MiniLM-L6-v2 model for sentence embeddings.
+Model: Uses the `all-MiniLM-L6-v2` model for sentence embeddings.
 
 ### Input Sentences:
 ```
